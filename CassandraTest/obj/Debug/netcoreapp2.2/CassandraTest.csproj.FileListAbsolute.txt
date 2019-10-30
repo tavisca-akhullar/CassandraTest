@@ -1,0 +1,14 @@
+C:\Users\akhullar\source\repos\CassandraTest\CassandraTest\bin\Debug\netcoreapp2.2\CassandraTest.deps.json
+C:\Users\akhullar\source\repos\CassandraTest\CassandraTest\bin\Debug\netcoreapp2.2\CassandraTest.runtimeconfig.json
+C:\Users\akhullar\source\repos\CassandraTest\CassandraTest\bin\Debug\netcoreapp2.2\CassandraTest.runtimeconfig.dev.json
+C:\Users\akhullar\source\repos\CassandraTest\CassandraTest\bin\Debug\netcoreapp2.2\CassandraTest.dll
+C:\Users\akhullar\source\repos\CassandraTest\CassandraTest\obj\Debug\netcoreapp2.2\CassandraTest.csprojAssemblyReference.cache
+C:\Users\akhullar\source\repos\CassandraTest\CassandraTest\obj\Debug\netcoreapp2.2\CassandraTest.csproj.CoreCompileInputs.cache
+C:\Users\akhullar\source\repos\CassandraTest\CassandraTest\obj\Debug\netcoreapp2.2\CassandraTest.RazorAssemblyInfo.cache
+C:\Users\akhullar\source\repos\CassandraTest\CassandraTest\obj\Debug\netcoreapp2.2\CassandraTest.RazorAssemblyInfo.cs
+C:\Users\akhullar\source\repos\CassandraTest\CassandraTest\obj\Debug\netcoreapp2.2\CassandraTest.AssemblyInfoInputs.cache
+C:\Users\akhullar\source\repos\CassandraTest\CassandraTest\obj\Debug\netcoreapp2.2\CassandraTest.AssemblyInfo.cs
+C:\Users\akhullar\source\repos\CassandraTest\CassandraTest\obj\Debug\netcoreapp2.2\CassandraTest.RazorTargetAssemblyInfo.cache
+C:\Users\akhullar\source\repos\CassandraTest\CassandraTest\bin\Debug\netcoreapp2.2\CassandraTest.pdb
+C:\Users\akhullar\source\repos\CassandraTest\CassandraTest\obj\Debug\netcoreapp2.2\CassandraTest.dll
+C:\Users\akhullar\source\repos\CassandraTest\CassandraTest\obj\Debug\netcoreapp2.2\CassandraTest.pdb
