@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CassandraTest.Models
 {
-    [Table("user")]
+    [Table("employee")]
     public class Employee
     {
         

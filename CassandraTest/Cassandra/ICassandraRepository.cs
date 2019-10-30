@@ -10,8 +10,8 @@ namespace CassandraTest.Cassandra
     {
         Task AddRecord(Employee addressBook);
         Task UpdateRecord(Employee addressBook);
-        Task DeleteRecord(int id);
-        Task<Employee> GetSingleRecord(int id);
+        Task DeleteRecord(long id);
+        Task<Employee> GetSingleRecord(long id);
         Task<IEnumerable<Employee>> GetAllRecords();
     }
 }

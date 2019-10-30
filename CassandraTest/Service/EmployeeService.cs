@@ -24,9 +24,9 @@ namespace CassandraTest.Service
 
         public async Task UpdateRecord(Employee employee)
         {
-            var updateStatement = new SimpleStatement("UPDATE user SET " +
-                ",designation  = ? " +
-                ",emial    = ? " +
+            var updateStatement = new SimpleStatement("UPDATE employee SET " +
+                "designation  = ? " +
+                ",email    = ? " +
                 ",name   = ? " +
                 " WHERE id  = ? ",
                  employee.Designation, employee.Email,
@@ -35,21 +35,21 @@ namespace CassandraTest.Service
             await CassandraInitializer.session.ExecuteAsync(updateStatement);
         }
 
-        public async Task DeleteRecord(int id)
+        public async Task DeleteRecord(long id)
         {
-            var deleteStatement = new SimpleStatement("DELETE FROM user WHERE id = ? ", id);
+            var deleteStatement = new SimpleStatement("DELETE FROM employee WHERE id = ? ", id);
             await CassandraInitializer.session.ExecuteAsync(deleteStatement);
         }
 
-        public async Task<Employee> GetSingleRecord(int id)
+        public async Task<Employee> GetSingleRecord(long id)
         {
-            Employee addressBook = await mapper.SingleOrDefaultAsync<Employee>("SELECT * FROM user WHERE id = ?", id);
+            Employee addressBook = await mapper.SingleOrDefaultAsync<Employee>("SELECT * FROM employee WHERE id = ?", id);
             return addressBook;
         }
 
         public async Task<IEnumerable<Employee>> GetAllRecords()
         {
-            IEnumerable<Employee> addressBooks = await mapper.FetchAsync<Employee>("SELECT * FROM user");
+            IEnumerable<Employee> addressBooks = await mapper.FetchAsync<Employee>("SELECT * FROM employee");
             return addressBooks;
         }
     }
